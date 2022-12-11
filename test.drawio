@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T02:49:08.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" version="20.6.2" etag="7Ohk5gNQvyBZwZXBLc47" type="github"><diagram id="w7sbKXlTB2KC4blC9qL7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-11T03:13:45.928Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" version="20.6.2" etag="oUKFTC1LcAW7Jlnt7trO" type="github">
+  <diagram id="g9lIh40SCM5yrg_2Grmj" name="第 1 页">
+    <mxGraphModel dx="1422" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cMaKHw8jRYIHUP9vU9VQ-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;公共接入&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cMaKHw8jRYIHUP9vU9VQ-2" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Verdana;fontSize=16;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cMaKHw8jRYIHUP9vU9VQ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="430" as="sourcePoint" />
+            <mxPoint x="400" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cMaKHw8jRYIHUP9vU9VQ-4" value="天幕" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=16;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cMaKHw8jRYIHUP9vU9VQ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=16;" edge="1" parent="1" source="cMaKHw8jRYIHUP9vU9VQ-5" target="cMaKHw8jRYIHUP9vU9VQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cMaKHw8jRYIHUP9vU9VQ-5" value="接口机" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cMaKHw8jRYIHUP9vU9VQ-6" value="物料库" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="340" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cMaKHw8jRYIHUP9vU9VQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=14;" edge="1" parent="1" source="cMaKHw8jRYIHUP9vU9VQ-7" target="cMaKHw8jRYIHUP9vU9VQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cMaKHw8jRYIHUP9vU9VQ-7" value="接口机" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="560" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cMaKHw8jRYIHUP9vU9VQ-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;定时读取&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=0;verticalAlign=middle;align=center;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cMaKHw8jRYIHUP9vU9VQ-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;定时读取&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=16;fontStyle=0;verticalAlign=middle;align=center;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="460" y="260" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
