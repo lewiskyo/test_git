@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T05:41:54.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" version="20.6.2" etag="eYvLfiZZpg6xD1cF4sjZ" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T05:46:57.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" version="20.6.2" etag="6gkz7iLQ4sTHvYQ_VKLJ" type="github">
   <diagram id="M4k7FfC9nuhaKQpCs-OA" name="第 1 页">
     <mxGraphModel dx="981" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,13 +16,13 @@
         <mxCell id="2wptUwKGagTrkUcipgdk-3" value="天幕" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=16;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="340" y="140" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2wptUwKGagTrkUcipgdk-6" value="实时统计接口机" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="2wptUwKGagTrkUcipgdk-6" value="接口机" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="140" y="260" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2wptUwKGagTrkUcipgdk-11" value="统计库" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="340" y="480" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="2wptUwKGagTrkUcipgdk-20" value="实时统计接口机" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="2wptUwKGagTrkUcipgdk-20" value="接口机" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="540" y="260" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2wptUwKGagTrkUcipgdk-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=13;" edge="1" parent="1" source="2wptUwKGagTrkUcipgdk-34" target="2wptUwKGagTrkUcipgdk-6">
