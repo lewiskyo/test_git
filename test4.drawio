@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-11T14:38:29.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" version="20.6.2" etag="CV7no7hBveOHRrU6wo-R" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-11T14:42:44.210Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.46" version="20.6.2" etag="tRLh0EVkWKRPvkIalr4c" type="github">
   <diagram id="1bpVIfLe5_dsUP13_QPI" name="第 1 页">
     <mxGraphModel dx="1185" dy="-514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,10 +94,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Lkpm1lcb8TPIVfQLZ-2U-99" value="&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ff0000&quot;&gt;①. key = 版本+分页+长度,笛卡尔积&lt;br&gt;②. key存在, 返回value&lt;br&gt;③. key无效, 重新生成value&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Lkpm1lcb8TPIVfQLZ-2U-99" value="&lt;p style=&quot;line-height: 160%;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; color=&quot;#ff0000&quot;&gt;①. key = 版本+分页+长度,笛卡尔积&lt;br&gt;②. key存在, 返回详情&lt;br&gt;③. key无效, 重新生成详情&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="1470" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Lkpm1lcb8TPIVfQLZ-2U-101" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;①. 定期生成1份完整详情&lt;br&gt;②. 实时根据参数过滤&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#009900;" vertex="1" parent="1">
+        <mxCell id="Lkpm1lcb8TPIVfQLZ-2U-101" value="&lt;p style=&quot;line-height: 160%;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;①. 定期生成1份完整详情&lt;br&gt;②. 实时根据参数过滤&lt;br&gt;③. 返回符合条件的详情&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#009900;" vertex="1" parent="1">
           <mxGeometry x="440" y="1470" width="210" height="80" as="geometry" />
         </mxCell>
       </root>
