@@ -386,7 +386,7 @@
           <mxGeometry x="50" y="2210" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RLs7-VzoYjzALFaElUYu-121" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#66B2FF;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1810" width="500" height="290" as="geometry" />
+          <mxGeometry x="152" y="1810" width="500" height="290" as="geometry" />
         </mxCell>
         <mxCell id="RLs7-VzoYjzALFaElUYu-122" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;数据源&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="190" y="1820" width="60" height="30" as="geometry" />
@@ -413,28 +413,28 @@
           <mxGeometry x="304" y="1850" width="196" height="240" as="geometry" />
         </mxCell>
         <mxCell id="RLs7-VzoYjzALFaElUYu-132" value="&lt;b&gt;投放平台&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1860" width="85.5" height="40" as="geometry" />
+          <mxGeometry x="310" y="1860" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RLs7-VzoYjzALFaElUYu-133" value="&lt;b&gt;客户端版本&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="405.5" y="1860" width="84.5" height="40" as="geometry" />
+          <mxGeometry x="405.5" y="1860" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RLs7-VzoYjzALFaElUYu-136" value="&lt;b&gt;实验分群&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1920" width="85.5" height="40" as="geometry" />
+          <mxGeometry x="310" y="1920" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RLs7-VzoYjzALFaElUYu-137" value="&lt;b&gt;时间段范围&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="405.5" y="1920" width="85.5" height="40" as="geometry" />
+          <mxGeometry x="405.5" y="1920" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RLs7-VzoYjzALFaElUYu-138" value="&lt;b&gt;...&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1980" width="85.5" height="40" as="geometry" />
+          <mxGeometry x="310" y="1980" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RLs7-VzoYjzALFaElUYu-139" value="&lt;b&gt;...&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="404.5" y="1980" width="85.5" height="40" as="geometry" />
+          <mxGeometry x="405.5" y="1980" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RLs7-VzoYjzALFaElUYu-140" value="&lt;b&gt;手机系统&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="310" y="2040" width="85.5" height="40" as="geometry" />
+          <mxGeometry x="310" y="2040" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RLs7-VzoYjzALFaElUYu-141" value="&lt;b&gt;CTR过滤&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
-          <mxGeometry x="405.5" y="2040" width="85.5" height="40" as="geometry" />
+          <mxGeometry x="405.5" y="2040" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RLs7-VzoYjzALFaElUYu-144" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="160" y="2130" width="500" height="50" as="geometry" />
@@ -456,6 +456,24 @@
         </mxCell>
         <mxCell id="RLs7-VzoYjzALFaElUYu-151" value="&lt;b&gt;Redis集群&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="432" y="2220" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs7-VzoYjzALFaElUYu-152" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;策略控制&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="565" y="1820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs7-VzoYjzALFaElUYu-153" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="529" y="1850" width="110" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs7-VzoYjzALFaElUYu-154" value="人工优先" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1860" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs7-VzoYjzALFaElUYu-155" value="&lt;b&gt;词条屏蔽&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1920" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs7-VzoYjzALFaElUYu-156" value="&lt;b&gt;...&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1980" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RLs7-VzoYjzALFaElUYu-157" value="&lt;b&gt;CTR过滤&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="540" y="2040" width="85" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
