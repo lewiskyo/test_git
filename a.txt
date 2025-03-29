@@ -5,5 +5,3 @@ commit1
 commit3ssss
 a_cherry_pick
 aaa
-bbb
-ddd
