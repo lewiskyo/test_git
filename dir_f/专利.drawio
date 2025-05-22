@@ -1,9 +1,145 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6">
   <diagram name="第 1 页" id="OJ8oNDjbNcdTFaL82Juh">
-    <mxGraphModel>
+    <mxGraphModel dx="1324" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-1" value="工作池模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="120" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-2" value="负载监控模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="354" y="370" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-3" value="调整策略模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-4" value="设备适配层模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-5" value="目标存储设备(Redis，MySQL，Kafla等)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="120" y="630" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="230" as="sourcePoint" />
+            <mxPoint x="80" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="600" as="sourcePoint" />
+            <mxPoint x="510" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="600" as="sourcePoint" />
+            <mxPoint x="510" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="230" as="sourcePoint" />
+            <mxPoint x="510" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-12" value="数据输入方" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.308;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S_6_rKnNGbd_rblSv8D9-3" target="S_6_rKnNGbd_rblSv8D9-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="640" as="sourcePoint" />
+            <mxPoint x="440" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="157" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-16" value="更新工作池的执行策略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.342;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.111;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="S_6_rKnNGbd_rblSv8D9-1" target="S_6_rKnNGbd_rblSv8D9-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="640" as="sourcePoint" />
+            <mxPoint x="440" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-19" value="发送执行指令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="S_6_rKnNGbd_rblSv8D9-4" target="S_6_rKnNGbd_rblSv8D9-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="640" as="sourcePoint" />
+            <mxPoint x="440" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="S_6_rKnNGbd_rblSv8D9-5" target="S_6_rKnNGbd_rblSv8D9-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="620" as="sourcePoint" />
+            <mxPoint x="440" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-22" value="发送执行任务和采集监控指标指令" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="567" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-23" value="接收执行结果和监控指标" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="567" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="S_6_rKnNGbd_rblSv8D9-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="640" as="sourcePoint" />
+            <mxPoint x="390" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-25" value="数据返回到负载模块进行整理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="408.5" y="440" width="93" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S_6_rKnNGbd_rblSv8D9-2" target="S_6_rKnNGbd_rblSv8D9-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="640" as="sourcePoint" />
+            <mxPoint x="440" y="590" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="417" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-28" value="根据负载信息选择下一步策略" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="361" y="260" width="106" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S_6_rKnNGbd_rblSv8D9-29" target="S_6_rKnNGbd_rblSv8D9-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-29" value="S1 - 初始化设备适配器与工作池" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="235" y="840" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S_6_rKnNGbd_rblSv8D9-30" target="S_6_rKnNGbd_rblSv8D9-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-30" value="S2 - 定时向目标存储设备采集监控数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="230" y="960" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S_6_rKnNGbd_rblSv8D9-31" target="S_6_rKnNGbd_rblSv8D9-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-31" value="S3 - 对监控数据进行评估与决策" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1080" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-32" value="S4 - 根据最终决策，向工作池模块发出调整指令" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1200" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="S_6_rKnNGbd_rblSv8D9-32" target="S_6_rKnNGbd_rblSv8D9-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1140" as="sourcePoint" />
+            <mxPoint x="440" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="1230" />
+              <mxPoint x="110" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S_6_rKnNGbd_rblSv8D9-37" value="持续监控负载变化" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1008" width="20" height="161" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
